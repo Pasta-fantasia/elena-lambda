@@ -12,4 +12,4 @@ docker run  --name elena \
         elena/elena
 
 # for test
-#docker run --name elena --rm -ti -v  ${local_dir}:${APP_HOME}/data /bin/bash
+# docker run --name elena --rm -ti -v ./local_data:/home/elena_basic/data elena/elena /bin/bash
