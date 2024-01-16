@@ -36,7 +36,7 @@ USER ${USER}
 RUN pip install --user --no-cache-dir --upgrade pip setuptools wheel
 RUN pip install --user --no-cache-dir git+https://github.com/Pasta-fantasia/elena.git@v2.2.2 \
     git+https://github.com/Pasta-fantasia/elena-basics.git@v0.0.5  \
-    git+https://github.com/Pasta-fantasia/elena-notifications-telegram.git@main#egg=elena-notifications-telegram
+    git+https://github.com/Pasta-fantasia/elena-notifications-telegram.git@v0.0.1
 WORKDIR ${USER_HOME}
 
 #CMD ${MODULE_NAME}
