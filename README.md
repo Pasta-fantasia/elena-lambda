@@ -1,6 +1,6 @@
 # elena-docker
 
-Elena running in a docket container first version.
+Elena running in a docker container first version.
 
 - Set your secrets.yaml configuration on local_data directory.
 - Review strategies.yaml to your convenience.
